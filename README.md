@@ -113,7 +113,7 @@ An intelligent, real-time monitoring system that:
 
 ### 🎯 AI-Powered Detection Results
 
-<img src="demo2.png" width="850" style="border-radius: 20px; box-shadow: 0 15px 50px rgba(236, 72, 153, 0.3); border: 3px solid #ec4899;" />
+<img src="img/demo2.png" width="850" style="border-radius: 20px; box-shadow: 0 15px 50px rgba(236, 72, 153, 0.3); border: 3px solid #ec4899;" />
 
 <p><em>🤖 Advanced detection with bounding boxes, behavior labels, pose estimation & segmentation 🤖</em></p>
 
