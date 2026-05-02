@@ -121,7 +121,7 @@ An intelligent, real-time monitoring system that:
 
 ### 📹 Real-Time Webcam Monitoring
 
-<img src="demo3.png" width="850" style="border-radius: 20px; box-shadow: 0 15px 50px rgba(139, 92, 246, 0.3); border: 3px solid #8b5cf6;" />
+<img src="img/demo3.png" width="850" style="border-radius: 20px; box-shadow: 0 15px 50px rgba(139, 92, 246, 0.3); border: 3px solid #8b5cf6;" />
 
 <p><em>🎥 Live classroom monitoring with instant behavioral analysis 🎥</em></p>
 
