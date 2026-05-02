@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+yolo_env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+static/uploads/*
+!static/uploads/.gitkeep
+attendance_logs/*.csv
+!attendance_logs/.gitkeep
+*.jpg
+*.png
+!ClassRoom_Dataset/**/*.jpg
+
+# Model weights (too large for git)
+# Uncomment if models are too large
+# *.pt
+# runs/
+
+# Logs
+*.log

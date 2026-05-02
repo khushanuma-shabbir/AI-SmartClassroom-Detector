@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Smart Classroom Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v=2">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Smart Classroom Detector</h1>
+            <p>AI-Powered Attendance & Monitoring System</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Analytics Dashboard -->
+            <div class="analytics-panel">
+                <div class="stat-card">
+                    <h3>👥 Total Students</h3>
+                    <div class="stat-value" id="studentCount">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>🎯 Behaviors</h3>
+                    <div class="stat-value" id="behaviorCount">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>🤸 Poses Detected</h3>
+                    <div class="stat-value" id="poseCount">0</div>
+                </div>
+                <div class="stat-card">
+                    <h3>✋ Hands Raised</h3>
+                    <div class="stat-value" id="handRaisedCount">0</div>
+                </div>
+            </div>
+
+            <!-- Behavior Breakdown -->
+            <div class="behavior-panel" id="behaviorPanel" style="display:none;">
+                <h3>📊 Student Behaviors Detected</h3>
+                <div id="behaviorList"></div>
+            </div>
+
+            <!-- Detection Modes -->
+            <div class="detection-panel">
+                <div class="mode-section">
+                    <h2>📷 Image Detection</h2>
+                    <input type="file" id="imageUpload" accept="image/*">
+                    <button onclick="detectImage()">Detect from Image</button>
+                </div>
+
+                <div class="mode-section">
+                    <h2>🎥 Live Webcam Detection</h2>
+                    <button id="webcamBtn" onclick="toggleWebcam()">Start Webcam</button>
+                    <button onclick="saveAttendance()">Save Attendance</button>
+                </div>
+            </div>
+
+            <!-- Video Display -->
+            <div class="video-container">
+                <video id="webcam" autoplay playsinline></video>
+                <canvas id="canvas" style="display:none;"></canvas>
+                <img id="detectionResult" alt="Detection result will appear here">
+            </div>
+
+            <!-- Attendance Logs -->
+            <div class="logs-section">
+                <h2>📋 Today's Attendance Logs</h2>
+                <button onclick="loadLogs()">Refresh Logs</button>
+                <div id="logsContainer"></div>
+            </div>   
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
