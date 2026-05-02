@@ -105,7 +105,7 @@ An intelligent, real-time monitoring system that:
 
 ### 🎨 Beautiful User Interface
 
-<img src="demo1.png" width="850" style="border-radius: 20px; box-shadow: 0 15px 50px rgba(147, 51, 234, 0.3); border: 3px solid #9333ea;" />
+<img src="img/demo1.png" width="850" style="border-radius: 20px; box-shadow: 0 15px 50px rgba(147, 51, 234, 0.3); border: 3px solid #9333ea;" />
 
 <p><em>✨ Elegant dashboard with real-time analytics and intuitive controls ✨</em></p>
 
