@@ -541,12 +541,10 @@ AI-SmartClassroom-Detector/
 
 <div align="center">
 
-<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="120" style="border-radius: 50%; border: 4px solid #9333ea; box-shadow: 0 10px 30px rgba(147, 51, 234, 0.3);"/>
-
 ### **Khushanuma Shabbir Mansuri**
 
 🎓 **B.Tech in Information Technology**  
-🏛️ **NMIMS University, Mumbai**
+🏛️ **NMIMS University, Shirpur**
 
 💜 *Passionate about AI/ML, Computer Vision & Full-Stack Development*  
 ✨ *Building intelligent solutions to real-world problems*  
