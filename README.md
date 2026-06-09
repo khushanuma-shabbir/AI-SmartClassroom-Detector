@@ -2,25 +2,26 @@
 
 # 🎓 Smart Classroom Detector
 
-### AI-Powered Classroom Analytics Using Computer Vision & Deep Learning
+### AI-Powered Classroom Monitoring & Behavior Analytics using Computer Vision
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/YOLO-v11-111111?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Flask-Web_App-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YOLO26-Object_Detection-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Gradio-Interactive_UI-FF6F00?style=for-the-badge&logo=gradio"/>
   <img src="https://img.shields.io/badge/OpenCV-Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-Deployed-FFD21E?style=for-the-badge&logo=huggingface"/>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Behavior_Classes-5-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Dataset-1422_Images-orange?style=flat-square"/>
-  <img src="https://img.shields.io/badge/mAP@50-82.24%25-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Classes-5-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Computer_Vision-AI-orange?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Education-Tech-purple?style=flat-square"/>
 </p>
 
 ### Detect • Analyze • Monitor • Improve
 
-AI-powered system for automated attendance tracking, student behavior detection, classroom monitoring, and real-time analytics.
+An intelligent classroom monitoring system that uses Deep Learning, Object Detection, Pose Estimation, and Computer Vision to automatically analyze classroom activities and student engagement.
 
 </div>
 
@@ -28,225 +29,208 @@ AI-powered system for automated attendance tracking, student behavior detection,
 
 # 📖 Overview
 
-Smart Classroom Detector is a Computer Vision-based application designed to automate classroom monitoring using Artificial Intelligence.
+Smart Classroom Detector is an AI-powered educational analytics platform designed to assist educators in understanding classroom dynamics through automated visual analysis.
 
-The system combines multiple YOLO models, pose estimation techniques, and behavior recognition algorithms to provide real-time classroom insights from images and live webcam feeds.
+The system utilizes multiple YOLO26 models for:
 
-The goal is to reduce manual classroom management efforts while helping educators understand student engagement and classroom dynamics.
+* Student Detection
+* Human Pose Estimation
+* Instance Segmentation
+* Classroom Behavior Recognition
+* Attendance Logging
+
+The platform helps educators gain insights into student participation, attentiveness, and classroom engagement using real-time AI analysis.
 
 ---
 
 # 🚀 Key Features
 
-## 👥 Student Detection & Counting
+## 👥 Student Detection
 
-- Real-time student detection
-- Automatic classroom population counting
-- Multi-student support
-- Accurate classroom occupancy monitoring
-
----
-
-## 📝 Automated Attendance
-
-- Attendance generation from detected students
-- CSV-based attendance storage
-- Timestamp logging
-- Historical attendance records
+* Real-time student detection
+* Accurate student counting
+* Multi-person recognition
+* Classroom occupancy monitoring
 
 ---
 
-## 🧠 Classroom Behavior Detection
+## 🧠 Behavior Recognition
 
-The system identifies important classroom behaviors:
+The system detects important classroom behaviors:
 
-| Behavior | Purpose |
-|-----------|----------|
-| ✋ Hand Raising | Measures participation |
-| 😴 Sleeping | Detects inattentiveness |
-| 📱 Phone Usage | Identifies distractions |
-| ✍️ Writing | Tracks note-taking |
-| 📖 Reading | Measures engagement |
+| Behavior       | Description                |
+| -------------- | -------------------------- |
+| ✋ Hand Raising | Student participation      |
+| 😴 Sleeping    | Inattentiveness detection  |
+| 📱 Phone Usage | Distraction identification |
+| ✍️ Writing     | Note-taking activity       |
+| 📖 Reading     | Learning engagement        |
 
 ---
 
-## 🤸 Pose Estimation
+## 🤸 Human Pose Estimation
 
-- Human keypoint detection
-- Hand-raising recognition
-- Student posture analysis
-- Enhanced activity understanding
+* Student posture analysis
+* Body keypoint detection
+* Hand raise identification
+* Activity understanding
 
 ---
 
 ## 🎭 Instance Segmentation
 
-- Individual student segmentation
-- Better object separation
-- Improved visualization
+* Individual student segmentation
+* Better object separation
+* Enhanced classroom visualization
 
 ---
 
-## 📊 Analytics Dashboard
+## 📝 Attendance Logging
 
-- Student count visualization
-- Behavior distribution analysis
-- Attendance statistics
-- Real-time classroom insights
+* Automated attendance generation
+* Timestamp recording
+* CSV attendance storage
+* Historical attendance tracking
 
 ---
 
-# 🏗️ System Architecture
+## 📊 Classroom Analytics
+
+* Student participation insights
+* Behavior monitoring
+* Classroom activity analysis
+* Engagement tracking
+
+---
+
+# 🏗️ System Workflow
 
 ```text
-               Input Source
-          (Image / Webcam Feed)
-                       │
-                       ▼
-        Student Detection Model
-                       │
-                       ▼
-            Pose Estimation
-                       │
-                       ▼
-         Behavior Classification
-                       │
-                       ▼
-         Attendance Generation
-                       │
-                       ▼
-          Analytics Dashboard
-                       │
-                       ▼
-              Final Results
+Input Image / Classroom Feed
+              │
+              ▼
+      YOLO26 Detection
+              │
+              ▼
+      Student Counting
+              │
+              ▼
+      Pose Estimation
+              │
+              ▼
+     Behavior Detection
+              │
+              ▼
+     Attendance Logging
+              │
+              ▼
+      Analytics Output
 ```
 
 ---
 
-# 📸 Project Screenshots
+# 📸 Project Showcase
 
-## Dashboard
+## 🎨 User Interface
 
-<img src="img/demo1.png" width="100%">
-
----
-
-## Detection Results
-
-<img src="img/demo2.png" width="100%">
+<img src="img/demo1.png" width="100%" />
 
 ---
 
-## Live Monitoring
+## 🎯 Detection Results
 
-<img src="img/demo3.png" width="100%">
+<img src="img/demo2.png" width="100%" />
+
+---
+
+## 📹 Real-Time Monitoring
+
+<img src="img/demo3.png" width="100%" />
 
 ---
 
 # 🎯 Detected Behaviors
 
-| Class | Description |
-|---------|-------------|
-| Hand Raising | Student participation |
-| Sleeping | Low attentiveness |
-| Phone Usage | Classroom distraction |
-| Writing | Active note-taking |
-| Reading | Learning engagement |
+| Class        | Purpose                          |
+| ------------ | -------------------------------- |
+| Hand Raising | Measures classroom participation |
+| Sleeping     | Detects inattentive students     |
+| Phone Usage  | Identifies distractions          |
+| Writing      | Tracks note-taking behavior      |
+| Reading      | Measures learning engagement     |
 
 ---
 
-# 📊 Model Performance
+# 🤖 AI Models Used
 
-## Overall Results
+## YOLO26 Object Detection
 
-| Metric | Value |
-|----------|----------|
-| mAP@50 | 82.24% |
-| Dataset Size | 1422 Images |
-| Classes | 5 |
-| Epochs | 50 |
+Used for:
 
----
-
-## Class-wise Performance
-
-| Class | Precision | Recall | mAP@50 |
-|---------|---------|---------|---------|
-| Hand Raising | 86.5% | 92.0% | 91.9% |
-| Sleeping | 83.1% | 88.3% | 88.9% |
-| Phone Usage | 78.8% | 72.4% | 82.0% |
-| Writing | 76.4% | 65.9% | 77.4% |
-| Reading | 66.2% | 63.9% | 71.0% |
+* Student Detection
+* Classroom Occupancy Monitoring
+* Object Localization
 
 ---
 
-# 📂 Dataset Information
+## YOLO26 Pose Estimation
 
-## Dataset Statistics
+Used for:
 
-| Category | Count |
-|------------|---------|
-| Training Images | 1245 |
-| Validation Images | 177 |
-| Test Images | 177 |
-| Total Images | 1422 |
+* Human Keypoint Detection
+* Hand Raise Recognition
+* Posture Analysis
 
 ---
 
-## Classes
+## YOLO26 Segmentation
 
-1. Hand Raising
-2. Sleeping
-3. Phone Usage
-4. Writing
-5. Reading
+Used for:
+
+* Individual Student Segmentation
+* Enhanced Scene Understanding
 
 ---
 
 # 💻 Technology Stack
 
+## Programming Language
+
+* Python
+
 ## Frontend
 
-- HTML5
-- CSS3
-- JavaScript
-
-## Backend
-
-- Flask
-- Python
-
-## AI / Machine Learning
-
-- Ultralytics YOLO
-- PyTorch
+* Gradio
 
 ## Computer Vision
 
-- OpenCV
-- NumPy
-- Pillow
+* OpenCV
+* NumPy
+* Pillow
+
+## Deep Learning
+
+* PyTorch
+* Ultralytics YOLO26
 
 ## Data Processing
 
-- Pandas
-- CSV
+* Pandas
 
 ## Deployment
 
-- Hugging Face Spaces
-- Gunicorn
+* Hugging Face Spaces
 
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```bash
 AI-SmartClassroom-Detector/
 │
 ├── app.py
-├── yolo_detector.py
 ├── attendance_logger.py
+├── yolo26_detector.py
 ├── requirements.txt
 ├── README.md
 │
@@ -260,12 +244,6 @@ AI-SmartClassroom-Detector/
 │   └── js/
 │       └── main.js
 │
-├── models/
-│   ├── best.pt
-│   ├── yolo_model.pt
-│   ├── yolo_pose.pt
-│   └── yolo_seg.pt
-│
 ├── attendance_logs/
 │
 ├── img/
@@ -273,7 +251,9 @@ AI-SmartClassroom-Detector/
 │   ├── demo2.png
 │   └── demo3.png
 │
-└── dataset/
+├── yolo26n.pt
+├── yolo26n-seg.pt
+└── yolo26n-pose.pt
 ```
 
 ---
@@ -324,83 +304,74 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open browser:
-
-```bash
-http://localhost:5000
-```
-
 ---
 
 # 🎮 Usage
 
-## Image Detection
+### Step 1
 
-1. Upload classroom image
-2. Click Detect
-3. View:
-   - Student count
-   - Behavior analysis
-   - Attendance data
-   - Analytics dashboard
+Launch the application.
 
----
+### Step 2
 
-## Webcam Monitoring
+Upload a classroom image.
 
-1. Start webcam
-2. Allow camera access
-3. Monitor classroom live
-4. Generate attendance logs
-5. Analyze behavior in real-time
+### Step 3
 
----
+Run AI analysis.
 
-# 🌍 Real World Applications
+### Step 4
 
-### 🏫 Educational Institutions
+View:
 
-- Smart attendance systems
-- Classroom engagement analysis
-- Student participation tracking
-
-### 📈 Academic Analytics
-
-- Learning behavior research
-- Student engagement studies
-- Classroom performance evaluation
-
-### 🏢 Smart Campus Solutions
-
-- AI-powered monitoring
-- Educational automation
-- Data-driven decision making
+* Student Count
+* Detected Behaviors
+* Pose Analysis
+* Attendance Records
+* Visual Results
 
 ---
 
-# 🔮 Future Improvements
+# 🌍 Applications
 
-- Multi-camera classroom monitoring
-- Cloud database integration
-- Mobile application
-- REST API support
-- LMS integration
-- Advanced analytics dashboard
-- Teacher notification system
-- Face recognition-based attendance
-- Predictive student performance analysis
+## 🏫 Educational Institutions
+
+* Smart Attendance Systems
+* Classroom Monitoring
+* Student Engagement Analysis
+
+## 📊 Academic Research
+
+* Learning Behavior Studies
+* Student Activity Analysis
+* Classroom Analytics
+
+## 🤖 Smart Education
+
+* AI-Assisted Teaching
+* Automated Monitoring
+* Data-Driven Insights
+
+---
+
+# 🔮 Future Enhancements
+
+* Multi-camera support
+* Cloud database integration
+* Advanced analytics dashboard
+* Mobile application
+* LMS integration
+* Teacher alerts
+* Report generation
+* Smart classroom recommendations
 
 ---
 
 # 🌐 Live Demo
 
-### Hugging Face Deployment
+### Hugging Face Space
 
-Replace with your deployed link:
-
-```text
-https://huggingface.co/spaces/your-space-link
-```
+https://huggingface.co/spaces/Khushanuma-shabbir/smart-classroom-detector
 
 ---
 
@@ -408,36 +379,37 @@ https://huggingface.co/spaces/your-space-link
 
 ## Khushanuma Shabbir Mansuri
 
-**B.Tech Information Technology**  
-NMIMS University
+**B.Tech Information Technology**
 
-### Areas of Interest
+MPSTME, NMIMS University
 
-- Artificial Intelligence
-- Machine Learning
-- Computer Vision
-- Full Stack Development
-- Data Analytics
+### Interests
 
-### Connect With Me
+* Artificial Intelligence
+* Machine Learning
+* Computer Vision
+* Data Analytics
+* Full Stack Development
 
-**GitHub**
+### Connect
 
-```text
+GitHub:
 https://github.com/khushanuma-shabbir
-```
 
-**LinkedIn**
-
-```text
+LinkedIn:
 https://linkedin.com/in/khushanuma-shabbir
-```
 
-**Email**
+---
 
-```text
-khushanuma.shabbir@gmail.com
-```
+# ⭐ Support
+
+If you found this project useful:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+🤝 Contribute to the project
 
 ---
 
@@ -445,25 +417,12 @@ khushanuma.shabbir@gmail.com
 
 This project is licensed under the MIT License.
 
-You are free to use, modify, and distribute this project with proper attribution.
-
----
-
-# 🙏 Acknowledgements
-
-- Ultralytics YOLO
-- OpenCV
-- PyTorch
-- Flask
-- Hugging Face Spaces
-- Open Source AI Community
-
 ---
 
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a star.
+### 🚀 Transforming Education with Artificial Intelligence
 
-**Smart Classroom Detector • AI for Education • Computer Vision**
+Smart Classroom Detector • Computer Vision • Deep Learning • Educational Analytics
 
 </div>
